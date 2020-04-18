@@ -83,7 +83,7 @@ const Cards = (props) => {
           <Card.Body>
             <Card.Title>Deaths</Card.Title>
             <Card.Text>
-              <strong>{latest.cases}</strong>
+              <strong>{latest.deaths}</strong>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -99,7 +99,7 @@ const Cards = (props) => {
           <Card.Body>
             <Card.Title>Recovered</Card.Title>
             <Card.Text>
-              <strong>{latest.cases}</strong>
+              <strong>{latest.recovered}</strong>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
